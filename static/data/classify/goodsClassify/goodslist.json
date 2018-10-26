@@ -1,0 +1,46 @@
+{
+	"isSuccess": true,
+	"errorCode": "",
+	"errorMessage": "",
+	"returnObject": [{
+		"id": 1001,
+		"title": "热门分类",
+		"className": "goodsphoto goodsphoto1",
+		"imgSrc": "../../../static/images/classify/hot.png"
+	}, {
+		"id": 1002,
+		"title": "潮流服饰",
+		"className": "goodsphoto goodsphoto2",
+		"imgSrc": "../../../static/images/classify/clothes.png"
+	}, {
+		"id": 1003,
+		"title": "鞋靴箱包",
+		"className": "goodsphoto goodsphoto3",
+		"imgSrc": "../../../static/images/classify/shoes.png"
+	}, {
+		"id": 1004,
+		"title": "手机数码",
+		"className": "goodsphoto goodsphoto4",
+		"imgSrc": "../../../static/images/classify/camera.png"
+	}, {
+		"id": 1005,
+		"title": "休闲食品",
+		"className": "goodsphoto goodsphoto5",
+		"imgSrc": "../../../static/images/classify/foods.png"
+	}, {
+		"id": 1006,
+		"title": "家用电器",
+		"className": "goodsphoto goodsphoto6",
+		"imgSrc": "../../../static/images/classify/homeapp.png"
+	}, {
+		"id": 1007,
+		"title": "珠宝首饰",
+		"className": "goodsphoto goodsphoto7",
+		"imgSrc": "../../../static/images/classify/jewelry.png"
+	}, {
+		"id": 1008,
+		"title": "母婴用品",
+		"className": "goodsphoto goodsphoto8",
+		"imgSrc": "../../../static/images/classify/milk.png"
+	}]
+}

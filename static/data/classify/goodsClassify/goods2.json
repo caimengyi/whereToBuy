@@ -1,0 +1,56 @@
+{
+	"isSuccess": true,
+	"errorCode": "",
+	"errorMessage": "",
+	"returnObject": [{
+			"title": "男装",
+			"id": 1001,
+			"type": [{
+				"typeId": 1001,
+				"src": "../../static/images/classify/goods/all.png",
+				"text": "全部"
+			}, {
+				"typeId": 1002,
+				"src": "../../static/images/classify/goods/manshirt.png",
+				"text": "男士上衣"
+			}, {
+				"typeId": 1003,
+				"src": "../../static/images/classify/goods/manjeans.png",
+				"text": "男士裤装"
+			}, {
+				"typeId": 1004,
+				"src": "../../static/images/classify/goods/suit.png",
+				"text": "男士套装"
+			}]
+
+		}, {
+			"title": "女装",
+			"id": 1001,
+			"type": [{
+				"typeId": 1001,
+				"src": "../../static/images/classify/goods/dress.png",
+				"text": "连衣裙"
+			}, {
+				"typeId": 1002,
+				"src": "../../static/images/classify/goods/girlt.png",
+				"text": "女士上衣"
+			}, {
+				"typeId": 1003,
+				"src": "../../static/images/classify/goods/girljeans.png",
+				"text": "女士裤装"
+			}, {
+				"typeId": 1004,
+				"src": "../../static/images/classify/goods/skirt.png",
+				"text": "半身裙"
+			}, {
+				"typeId": 1005,
+				"src": "../../static/images/classify/goods/oldw.png",
+				"text": "女士中老年"
+			}]
+
+		}
+
+	]
+
+
+}
