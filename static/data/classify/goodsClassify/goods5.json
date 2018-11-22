@@ -6,69 +6,69 @@
 		"title": "女鞋",
 		"type": [{
 			"typeId": 1001,
-			"src": "../../static/images/classify/goods/singleshoe.png",
+			"src": "../../src/assets/images/classify/goods/singleshoe.png",
 			"text": "单鞋"
 		}, {
 			"typeId": 1002,
-			"src": "../../static/images/classify/goods/highshoe.png",
+			"src": "../../src/assets/images/classify/goods/highshoe.png",
 			"text": "高跟鞋"
 		}, {
 			"typeId": 1003,
-			"src": "../../static/images/classify/goods/bshoe.png",
+			"src": "../../src/assets/images/classify/goods/bshoe.png",
 			"text": "帆布鞋"
 		}, {
 			"typeId": 1004,
-			"src": "../../static/images/classify/goods/lowshoe.png",
+			"src": "../../src/assets/images/classify/goods/lowshoe.png",
 			"text": "低跟鞋"
 		}, {
 			"typeId": 1005,
-			"src": "../../static/images/classify/goods/runshoe.png",
+			"src": "../../src/assets/images/classify/goods/runshoe.png",
 			"text": "运动鞋"
 		}]
 	}, {
 		"title": "男鞋",
 		"type": [{
 			"typeId": 1001,
-			"src": "../../static/images/classify/goods/pshoe.png",
+			"src": "../../src/assets/images/classify/goods/pshoe.png",
 			"text": "全部"
 		}, {
 			"typeId": 1002,
-			"src": "../../static/images/classify/goods/manfshoe.png",
+			"src": "../../src/assets/images/classify/goods/manfshoe.png",
 			"text": "运动鞋"
 		}, {
 			"typeId": 1003,
-			"src": "../../static/images/classify/goods/pshoe.png",
+			"src": "../../src/assets/images/classify/goods/pshoe.png",
 			"text": "皮鞋"
 		}, {
 			"typeId": 1004,
-			"src": "../../static/images/classify/goods/manfshoe.png",
+			"src": "../../src/assets/images/classify/goods/manfshoe.png",
 			"text": "帆布鞋"
 		}, {
 			"typeId": 1005,
-			"src": "../../static/images/classify/goods/casualshoe.png",
+			"src": "../../src/assets/images/classify/goods/casualshoe.png",
 			"text": "休闲鞋"
 		}]
 	}, {
 		"title": "箱包",
 		"type": [{
 			"typeId": 1001,
-			"src": "../../static/images/classify/goods/suitcase.png",
+			"src": "../../src/assets/images/classify/goods/suitcase.png",
 			"text": "行李箱"
 		}, {
 			"typeId": 1002,
-			"src": "../../static/images/classify/goods/xbags.png",
+			"src": "../../src/assets/images/classify/goods/xbags.png",
 			"text": "女士挎包"
 		}, {
 			"typeId": 1003,
-			"src": "../../static/images/classify/goods/doublebags.png",
+			"src": "../../src/assets/images/classify/goods/doublebags.png",
 			"text": "双肩包"
 		}, {
 			"typeId": 1004,
-			"src": "../../static/images/classify/goods/bags.png",
+			"src": "../../src/assets/images/classify/goods/bags.png",
 			"text": "手提包"
 		}, {
 			"typeId": 1005,
-			"src": "../../static/images/classify/goods/wallet.png",
+			"src": "../../src/assets/images/classify/goods/wallet.png",
 			"text": "钱包"
 		}]
 	}]

@@ -7,31 +7,31 @@
 			"id": 1001,
 			"type": [{
 				"typeId": 1001,
-				"src": "../../static/images/classify/goods/all.png",
+				"src": "../../src/assets/images/classify/goods/all.png",
 				"text": "李维斯"
 			}, 
 			{
 				"typeId": 1002,
-				"src": "../../static/images/classify/goods/manshirt.png",
+				"src": "../../src/assets/images/classify/goods/manshirt.png",
 				"text": "班尼路"
 			}, 
 			{
 				"typeId": 1003,
-				"src": "../../static/images/classify/goods/manjeans.png",
+				"src": "../../src/assets/images/classify/goods/manjeans.png",
 				"text": "阿迪达斯"
 			}, 
 			{
 				"typeId": 1003,
-				"src": "../../static/images/classify/goods/manjeans.png",
+				"src": "../../src/assets/images/classify/goods/manjeans.png",
 				"text": "安踏"
 			}, 
 			{
 				"typeId": 1003,
-				"src": "../../static/images/classify/goods/manjeans.png",
+				"src": "../../src/assets/images/classify/goods/manjeans.png",
 				"text": "斯凯奇"
 			}, {
 				"typeId": 1004,
-				"src": "../../static/images/classify/goods/suit.png",
+				"src": "../../src/assets/images/classify/goods/suit.png",
 				"text": "耐克"
 			}]
 
@@ -40,23 +40,23 @@
 			"id": 1001,
 			"type": [{
 				"typeId": 1001,
-				"src": "../../static/images/classify/goods/dress.png",
+				"src": "../../src/assets/images/classify/goods/dress.png",
 				"text": "CUCCI"
 			}, {
 				"typeId": 1002,
-				"src": "../../static/images/classify/goods/girlt.png",
+				"src": "../../src/assets/images/classify/goods/girlt.png",
 				"text": "PINKO"
 			}, {
 				"typeId": 1003,
-				"src": "../../static/images/classify/goods/girljeans.png",
+				"src": "../../src/assets/images/classify/goods/girljeans.png",
 				"text": "FURLA"
 			}, {
 				"typeId": 1004,
-				"src": "../../static/images/classify/goods/skirt.png",
+				"src": "../../src/assets/images/classify/goods/skirt.png",
 				"text": "POLO"
 			}, {
 				"typeId": 1005,
-				"src": "../../static/images/classify/goods/oldw.png",
+				"src": "../../src/assets/images/classify/goods/oldw.png",
 				"text": "TODS"
 			}]
 

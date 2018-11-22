@@ -1,0 +1,38 @@
+{
+	"isSuccess": true,
+	"errorCode": "",
+	"errorMessage": "",
+	"returnObject": [{
+			"imgSrc":"../../static/images/mainPage/recomdgoods/goods1.png",
+			"goodsTitle": "米家恒温电热水壶",
+			"id": 1001,
+			"price":"￥100",
+			"discount":"9折",
+			"shops":"淘宝"
+		}, {
+			"imgSrc":"../../static/images/mainPage/recomdgoods/goods2.png",
+			"goodsTitle": "USB转换头",
+			"id": 1002,
+			"price":"￥40",
+			"discount":"8折",
+			"shops":"淘宝"
+		},{
+			"imgSrc":"../../static/images/mainPage/recomdgoods/goods3.png",
+			"goodsTitle": "typeC充电线",
+			"id": 1003,
+			"price":"￥35",
+			"discount":"7折",
+			"shops":"淘宝"
+		},{
+			"imgSrc":"../../static/images/mainPage/recomdgoods/goods1.png",
+			"goodsTitle": "米家恒温电热水壶",
+			"id": 1004,
+			"price":"￥100",
+			"discount":"9折",
+			"shops":"淘宝"
+		}
+
+	]
+
+
+}

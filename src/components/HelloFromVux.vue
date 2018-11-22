@@ -54,8 +54,13 @@
 <style>
 body{
   margin:0;
+  padding:0;
+  overflow-x:hidden;
 }
 
+::-webkit-scrollbar{
+  display:none;
+}
 
 @media only screen and (max-width: 462px) {
   html {

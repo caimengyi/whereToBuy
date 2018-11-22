@@ -20,7 +20,9 @@
      </div>
 
       <div class="imgshow">
-        <img class="map_icon" src="../../assets/images/icon/map_icon.png"/>
+        <a href="https://uri.amap.com/marker?position=经度,纬度&name=所在的位置名称">
+          <img class="map_icon" src="../../assets/images/icon/map_icon.png"/>
+        </a>
         <img class="scan_icon" src="../../assets/images/icon/scan_icon.png"/>
       </div>
 

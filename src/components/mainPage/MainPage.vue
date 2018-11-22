@@ -1,6 +1,6 @@
 <template>
-	<div class="MainPage" style="height: 100%">
-    	<Header></Header>
+  <div class="MainPage" style="height: 100%">
+      <Header></Header>
 
       <div class="adver">
         <img class="adverimg" src="../../assets/images/mainPage/adver.png"/>
@@ -22,31 +22,13 @@
         <div class="likeTitle"> <p>猜你喜欢</p></div>
         <div class="goodsList">
            <ul>
-             <li class="goods">
-               <img class="goods1" src = "../../assets/images/mainPage/goods1.png"/>
+             <li class="goods" v-for="(item,index) in goodsList">
+               <img :src="item.imgSrc"/>
                <div class= "goodsDetail">
-                 <p class="goodsTitle">米家恒温电热水壶</p>
-                 <p class="price">￥100</p>
-                 <p class="discount">9折</p>
-                 <p class="shops">淘宝</p>
-               </div>          
-             </li>
-             <li class="goods">
-               <img class="goods1" src = "../../assets/images/mainPage/goods2.png"/>
-               <div class= "goodsDetail">
-                 <p class="goodsTitle">米家恒温电热水壶</p>
-                 <p class="price">￥100</p>
-                 <p class="discount">9折</p>
-                 <p class="shops">淘宝</p>
-               </div>          
-             </li>
-             <li class="goods">
-               <img class="goods1" src = "../../assets/images/mainPage/goods3.png"/>
-               <div class= "goodsDetail">
-                 <p class="goodsTitle">米家恒温电热水壶</p>
-                 <p class="price">￥100</p>
-                 <p class="discount">9折</p>
-                 <p class="shops">淘宝</p>
+                 <p class="goodsTitle">{{item.goodsTitle}}</p>
+                 <p class="price">{{item.price}}</p>
+                 <p class="discount">{{item.discount}}</p>
+                 <p class="shops">{{item.shops}}</p>
                </div>          
              </li>
            </ul>
@@ -54,16 +36,36 @@
        </div>
      </div>
 
-		
-	</div>
+    
+  </div>
 </template>
 
 <script>
 
  import Header from '../header/Header'
   export default {
-
-   
+    data(){
+    let self= this;
+    let data={
+      goodsList:''
+    }
+      return data;      
+    },
+    mounted(){
+      this.loadData('../../static/data/recommend/recommend.json');       
+    },
+    methods:{
+      loadData(url){
+          let self = this;
+          this.baseAjax({
+            url:url,
+            success:function(data){          
+                self.goodsList = data.returnObject
+            }
+          })
+      }
+    },
+  
     directives: {
         
       },
@@ -224,6 +226,7 @@
   height:10rem;
   right:0;
   top:0;
+  margin-bottom:5rem;
 }
 
 .goodsDetail .goodsTitle{
